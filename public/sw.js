@@ -1,16 +1,14 @@
 // registration --> installation --> activation
 // fetch
 
-const staticCacheName = 'static-cache-v1';
-const dynamicCacheName = 'dynamic-cache-v1';
+const staticCacheName = 'static-cache-v1.0';
+const dynamicCacheName = 'dynamic-cache-v1.0';
 
 const staticAssets = [
   './',
   './index.html',
   './offline.html',
   './images/no-image.jpg',
-  './images/icon/apple-icon-180x180-dunplab-manifest-13620.png',
-  './images/icon/favicon-96x96-dunplab-manifest-13620.png',
   './css/style.css',
   './js/registerWorker.js',
   './js/main.js',

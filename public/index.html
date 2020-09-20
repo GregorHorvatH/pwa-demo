@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="PWA Demo Page" />
     <meta name="theme-color" content="#173f5f" />
@@ -12,15 +13,11 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="manifest" href="manifest.json" />
 
-    <link
-      rel="icon"
-      href="./images/icon/favicon-96x96-dunplab-manifest-13620.png"
-      type="image/x-icon"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="./images/icon/apple-icon-180x180-dunplab-manifest-13620.png"
-    />
+    <!-- icon in the highest resolution we need it for splash screen -->
+    <link rel="icon" sizes="192x192" href="images/icons/icon-192x192.png" />
+
+    <!-- reuse same icon for Safari -->
+    <link rel="apple-touch-icon" href="images/icons/icon-192x192.png" />
   </head>
   <body>
     <header>
