@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "sw.js",
+  "homepage": "https://gregorhorvath.github.io/pwa-demo/",
   "scripts": {
+    "deploy": "gh-pages -d public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
