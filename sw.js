@@ -1,8 +1,8 @@
 // registration --> installation --> activation
 // fetch
 
-const staticCacheName = 'static-cache-v1.3';
-const dynamicCacheName = 'dynamic-cache-v1.3';
+const staticCacheName = 'static-cache-v1.4';
+const dynamicCacheName = 'dynamic-cache-v1.4';
 
 const staticAssets = [
   './',
