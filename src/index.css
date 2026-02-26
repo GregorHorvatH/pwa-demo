@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #e38400;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
